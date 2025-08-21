@@ -95,7 +95,7 @@ A framework-agnostic refactor of `DoctorSlotsSynchronizer.php` (and static-data 
 - PHP 8.1+
 - Composer
 
-### One-shot install commands
+## One-shot install commands
 
 # clean slate
 rm -rf vendor composer.lock
