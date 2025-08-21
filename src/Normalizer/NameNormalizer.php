@@ -9,12 +9,13 @@ namespace App\Normalizer;
  * Rules implemented:
  * - Trim and lowercase input, then apply ucwords.
  * - Preserves capitalization after common delimiters: space, hyphen, apostrophe.
- * - Special-case prefixes "Mc" and "Mac" (e.g. "mcdonald" -> "McDonald").
  *
  * Assumptions & limitations:
  * - This is a pragmatic, language-agnostic normalizer. It does not fully
  *   implement locale-specific capitalization rules (e.g. "van", "de", "la").
  * - Hyphenated and apostrophe names are supported (e.g. "anna-marie", "o'connor").
+ * TO DO:
+ * - Consider adding locale-specific rules for common prefixes/suffixes.
  * - If strict locale rules are required, inject a locale-aware normalizer.
  */
 class NameNormalizer

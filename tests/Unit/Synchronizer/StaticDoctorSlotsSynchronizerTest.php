@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Tests\Unit\Synchronizer;
+
 use PHPUnit\Framework\TestCase;
 use App\Synchronizer\StaticDoctorSlotsSynchronizer;
 use App\Provider\Static\StaticDataProviderInterface;

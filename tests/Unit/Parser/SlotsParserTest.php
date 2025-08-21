@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Tests\Unit\Parser;
+
 use PHPUnit\Framework\TestCase;
 use App\Service\SlotsParser;
 use App\Model\Slot;

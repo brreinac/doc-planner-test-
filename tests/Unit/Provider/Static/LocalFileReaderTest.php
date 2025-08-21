@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Tests\Unit\Provider\Static;
+
 use PHPUnit\Framework\TestCase;
 use App\Provider\Static\LocalFileReader;
 

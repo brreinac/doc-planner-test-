@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Tests\Unit\Provider;
+
 use PHPUnit\Framework\TestCase;
 use App\Provider\Http\HttpDataProvider;
 use App\Http\HttpClientInterface;

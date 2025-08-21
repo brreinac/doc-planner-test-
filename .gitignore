@@ -1,0 +1,27 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file
+/composer.lock
+
+# Environment files
+/.env
+/.env.local
+/.env.*.local
+
+# Laravel specific
+/storage/
+bootstrap/cache/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
