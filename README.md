@@ -97,16 +97,16 @@ A framework-agnostic refactor of `DoctorSlotsSynchronizer.php` (and static-data 
 
 ## One-shot install commands
 
-# clean slate
+- clean slate
 rm -rf vendor composer.lock
 
-# install with pinned deps
+- install with pinned deps
 composer install --no-interaction
 
-# verify autoload
+- verify autoload
 composer dump-autoload -o
 
-# run tests
+- run tests
 composer test
 
 ### Install
